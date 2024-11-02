@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+/* nav start */
+nav {
+    padding: 40px 0;
+    background: #fff;
+    position: relative;
+}
+.navbar-brand {
+	padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0;
+}
+nav ul li {
+    margin: 0 0 0 30px;
+    color: #5d6981 ;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    padding: 10px 10px;
+    transition: .4s;
+}
+nav::after {
+    width: 100%;
+    height: 2px;
+    background: #e4e6ea;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+nav ul li:hover {
+    border: 1px solid #5d6981;
+}
+nav .icon {
+    margin: 0 0 0 30px;
+}
+nav .icon i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #3c5a99;
+    border-radius: 50%;
+    color: #3c5a99;
+    margin: 0 5px;
+}
+nav .twit i {
+    color: #28aae1;
+    border: 1px solid #28aae1;
+}
+/* nav end */
+/* banner start */
+.banner_part {
+    background: url(../img/banner_back.png) no-repeat top;
+    background-size: cover;
+    padding: 100px 0;
+}
+.banner_part h1 {
+	font-size: 72px;
+	font-weight: 700;
+	color: #0149a1;
+}
+.banner_part p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #6a758a;
+    margin: 0 0 60px 0;
+}
+.banner_part .btn a {
+	font-size: 18px;
+	font-weight: 700;
+	background: #ff2d55;
+	border: 0;
+	border-radius: 40px;
+	padding: 15px 55px;
+    margin: 0 0 70px 0;
+}
+.banner_part .bot_img {
+    position: relative;
+}
+.banner_part .bot_img img {
+    padding: 0 0 200px 0;
+}
+.banner_part .bot_img .inner {
+    background: #fff;
+    color: #0149a1;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translateX(50%,50%);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.banner_part .bot_img .inner a {
+    color: #0149a1;
+    font-size: 18px;
+    font-weight: 700;
+}
+.banner_part .bot_img .inner i {
+    margin: 0 0 0 20px;
+    color: #6785bb;
+    font-size: 20px;
+}
+/* banner end */
+/* service start */
+.service_part {
+    margin: -340px 0 70px 0;
+}
+.service_part .item h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5d6981;
+    margin: 40px 0 20px 0;
+}
+.service_part .item p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8ca0;
+    width: 282px;
+    margin: 0 auto;
+}
+/* service end */
+/* creative start */
+.creative_part {
+    padding: 200px 0;
+    background: url(../img/creative.png) no-repeat center;
+    background-size: cover;
+}
+.creative_part .btn {
+    margin: 60px 0 0 0; 
+}
+.creative_part .btn a {
+    padding: 10px 40px;
+    border-radius: 30px;
+    background: #0149a1;
+    border: 0;
+    color: #fff;
+    box-shadow: 1px 0px 86px 59px rgba(250,248,248,1);
+}
+/* creative end */
+/* work start */
+.work_part {
+    padding: 100px 0;
+    background: #0149a1;
+}
+.work_part .title h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.work_part .title p {
+    font-size: 32px;
+    font-weight: 300;
+    color: #5483bb;
+}
+.work_part .work_con_main {
+    margin: 100px 0;
+}
+.work_part .btn a {
+    text-align: center;
+}
+.work_part .text_con {
+    text-align: left;
+}
+.work_part .text_con p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 498px;
+}
+.work_part .text_con .me {
+    margin: 30px 0;
+}
+.work_part .btn {
+    margin: 0;
+}
+.work_part .btn a {
+    background: #fff;
+    color: #0149a1;
+    box-shadow: none;
+}
+/* work end */
+/* review start */
+.review_part {
+    padding: 100px 0 160px 0;
+    background: #ffffff;
+    position: relative;
+}
+.review_part .client_slider .client {
+    width: 100px;
+}
+.review_part .img {
+    margin: 0 0 30px 0;
+}
+.review_part .client p {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #7c8ca0;
+    width: 591px;
+    margin: 0 auto;
+}
+.review_part .client h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8ca0;
+    margin: 30px 0 0 0;
+}
+.review_part .prev {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: 1px solid #e3e7eb;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    border-radius: 50%;
+    line-height: 70px;
+    color: #99a6b6;
+}
+.review_part .next {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: 1px solid #e3e7eb;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    border-radius: 50%;
+    line-height: 70px;
+    color: #99a6b6;
+}
+.review_part .slick-dots {
+    position: absolute;
+    bottom: -110px;
+    left: 40%;
+
+}
+.review_part .slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.review_part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccd2da;
+    border-radius: 50%;
+    background: transparent;
+    transition: .4s;
+}
+.review_part .slick-dots .slick-active button {
+    background: #7c8ca0;
+ }
+/* review end */
+/* team start */
+.team_part {
+    background: #edeff1;
+}
+.team_part .title h2 {
+    color: #0149a1;
+}
+.team_part .title p {
+    color: #7c8ca0;
+}
+.team_part .team_con_main {
+    margin: 100px 0 80px 0;
+}
+.team_part .details h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5d6981;
+    margin: 40px 0 20px 0;
+}
+.team_part .details p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8ca0;
+    width: 300px;
+}
+.team_part .btn {
+    margin: 0;
+}
+.team_part .btn a {
+    background: #ff2d55;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 0;
+}
+/* team end */
+/* map start */
+.map_part {
+    position: relative;
+}
+.map_part .inner {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* map end */
+/* footer start */
+footer {
+    padding: 90px 0 100px 0;
+    background: #0149a1;
+}
+footer ul li {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+.free_footer {
+    margin: 80px 0 0 0;
+}
+.free_footer p {
+    color: #80a4d0;
+    width: 700px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.free_footer a {
+    color: #ffffff;
+    font-weight: 700;
+}
+/* footer end */
