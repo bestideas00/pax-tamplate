@@ -15,11 +15,17 @@ h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
 }
+html, body {
+    overflow-x: hidden;
+}
 /* nav start */
 nav {
     padding: 40px 0;
     background: #fff;
-    position: relative;
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
 }
 .navbar-brand {
 	padding: 0;
